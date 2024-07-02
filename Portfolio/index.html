@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Part 1 - Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Part 2 - Main Page -->
+    <div class="main1">
+        <div class="main-content">
+            <h1>Hello, It's Me</h1>
+            <h1>Priyansh Minda</h1>
+            <h1>And I'm a <span>Frontend Developer</span></h1>
+            <p>I am a Frontend Developer and I have learnt the latest technologies regarding artificial</p>
+            <p>intelligence according to future scope.</p>
+            <img src="img/bxl-facebook-circle.svg" alt="" class="icon">
+            <img src="img/bxl-twitter.svg" alt="" class="icon">
+            <img src="img/bxl-linkedin.svg" alt="" class="icon">
+            <img src="img/bx-globe.svg" alt="" class="icon"><br>
+            <a href="22145069_Priyansh _Minda_Sample resume overall.pdf" download>
+                <button id="btn">Download CV</button>
+            </a>
+        </div>
+        <div class="main-pic">
+            <div class="magic">
+                <img src="img/ei_1699724801704-removebg-preview.png" alt="" id="main-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Part 3 - About Me -->
+    <div class="main2">
+        <div class="main2-pic">
+            <div class="magic2">
+                <img src="portfolio2.jpeg" alt="" id="main-img">
+            </div>
+        </div>
+        <div class="main2-content">
+            <h1>About <span>Me</span></h1>
+            <h2>Frontend Developer</h2>
+            <p>Hello! I'm Priyansh Minda, a passionate 3rd-year B.Tech student at IIT (BHU) Varanasi, specializing in Metallurgical Engineering. I have a strong interest in web development, where I combine my engineering rigor with creative digital solutions. With proficiency in HTML, CSS, JavaScript, React, and Node.js, I am dedicated to leveraging technology to create seamless user experiences. I enjoy exploring new technologies and frameworks, continuously expanding my skills to contribute effectively to the ever-evolving field of web development.</p>
+            <button id="btn">More About Me</button>
+        </div>
+    </div>
+
+    <!-- Part 4 - Our Services -->
+    <div class="main3">
+        <h1>MY <span>Skills</span></h1>
+        <div class="main3-main">
+            <div class="service html">
+                <img src="img/bxl-html5.svg" alt="" class="lang-icon">
+                <h2>HTML-5</h2>
+                <p>HTML5 is the standard markup language for creating web pages. It provides the structure for web content and includes powerful new features like audio, video, and canvas elements.</p>
+                <button id="btn">Read More</button>
+            </div>
+            <div class="service css">
+                <img src="img/bxl-css3.svg" alt="" class="lang-icon">
+                <h2>CSS-3</h2>
+                <p>CSS3 is used to style and layout web pages. With advanced features like animations, transitions, and flexbox/grid layouts, it enhances the visual presentation and user experience of web applications.</p>
+                <button id="btn">Read More</button>
+            </div>
+            <div class="service js">
+                <img src="img/bxl-javascript.svg" alt="" class="lang-icon">
+                <h2>JavaScript</h2>
+                <p>JavaScript is a versatile programming language that enables dynamic content, interactive elements, and complex functionalities on web pages. It's essential for front-end development.</p>
+                <button id="btn">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Part 5 - Latest Projects -->
+    <div class="main4">
+        <h1>Latest <span>Projects</span></h1>
+        <div class="main4-main">
+            <div class="main4-img-1">
+                <div class="main4-img-1-1">
+                    <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="main4-pic">
+                </div>
+                <div class="main4-img-1-2">
+                    <img src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="main4-pic">
+                </div>
+                <div class="main4-img-1-3">
+                    <img src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="main4-pic">
+                </div>
+            </div>
+            <div class="main4-img-2">
+                <div class="main4-img-2-1">
+                    <img src="https://images.pexels.com/photos/1933900/pexels-photo-1933900.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="main4-pic">
+                </div>
+                <div class="main4-img-2-2">
+                    <img src="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="main4-pic">
+                </div>
+                <div class="main4-img-2-3">
+                    <img src="https://images.pexels.com/photos/270488/pexels-photo-270488.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="main4-pic">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Part 6 - Contact Me -->
+    <div class="main5">
+        <h1>Contact <span>Me!</span></h1>
+        <form action="https://formspree.io/f/meqydejj" method="POST">
+            <input type="text" id="first-name" name="first-name" placeholder="Enter your First Name">
+            <input type="text" id="last-name" name="last-name" placeholder="Enter your Last Name"><br>
+            <input type="email" id="email" name="_replyto" placeholder="Enter your Email">
+            <input type="number" id="number" name="number" placeholder="Enter your Number"><br>
+            <input type="text" id="message" name="message" placeholder="Enter your Message" style="height: 180px; width: 600px;"><br>
+            <input type="submit" value="Send Message" id="btn">
+        </form>
+    </div>
+
+    <!-- Part 7 - Footer -->
+    <div class="footer">
+        <p>Copyright &copy; 2024 by Priyansh Minda | All Rights Reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
